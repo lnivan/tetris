@@ -6,16 +6,16 @@ from pygame import display
 from pygame.event import event_name
 
 pygame.init()
-
+'''
 pygame.mixer.music.load('tetris.mp3')
 pygame.mixer.music.play(-1)
-
+'''
 gray = (100, 100, 100) 
 black = (0, 0, 0)
 
 tiempo_entre_bajadas = 1000
 grosor_lineas = 1
-tamano_cuadros = 5
+tamano_cuadros = 4
 ancho_juego = 10
 largo_juego = 20
 puntuacion = 0
@@ -320,7 +320,7 @@ def juego2():
     pintar_cuadrados()
     cuadricula_pantalla()
     actualizar_posicion_pieza()
-    #pintar_pieza(pieza_actual, coordenada_esquina_pieza[0], coordenada_esquina_pieza[1])aa
+    #pintar_pieza(pieza_actual, coordenada_esquina_pieza[0], coordenada_esquina_pieza[1])
     display.flip()
 
 nueva_pieza()
