@@ -7,7 +7,6 @@
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Pygame](https://img.shields.io/badge/Pygame-2.x-30363D?style=flat-square)
 ![Status](https://img.shields.io/badge/status-prototype-BF8700?style=flat-square)
-![Year](https://img.shields.io/badge/year-2022-8250DF?style=flat-square)
 
 <img src="docs/preview.gif" alt="A 10 by 20 Tetris board, scaled up for the preview and cropped to the board, where coloured pieces fall, rotate and fill rows that then clear" width="300">
 
@@ -57,10 +56,6 @@ As committed, the window is only 80 × 80 pixels; set `tamano_cuadros = 30` near
 - There is no game over. Once the stack reaches the top, each new piece locks where it appears and play goes on.
 - The fall speed is counted in loop passes rather than time, with no frame cap, so it depends on the machine. The rotation index is printed to the console every frame.
 - The background music lines for `tetris.mp3` are commented out, and the audio file is not part of this repository.
-
-## Background
-
-Written around May 2022. The first commit is an earlier copy from May 2022, which still played `tetris.mp3` as background music and used 5-pixel squares. The second is the version from a June 2023 code backup, with the music commented out and 4-pixel squares.
 
 ---
 
