@@ -15,7 +15,7 @@ black = (0, 0, 0)
 
 tiempo_entre_bajadas = 1000
 grosor_lineas = 1
-tamano_cuadros = 4
+tamano_cuadros = 30
 ancho_juego = 10
 largo_juego = 20
 puntuacion = 0
