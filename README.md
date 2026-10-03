@@ -8,7 +8,7 @@
 ![Pygame](https://img.shields.io/badge/Pygame-2.x-30363D?style=flat-square)
 ![Status](https://img.shields.io/badge/status-prototype-BF8700?style=flat-square)
 
-<img src="docs/preview.gif" alt="A 10 by 20 Tetris board, scaled up for the preview and cropped to the board, where coloured pieces fall, rotate and fill rows that then clear" width="300">
+<img src="docs/preview.gif" alt="A 10 by 20 Tetris board, cropped to the board, where coloured pieces fall, rotate and fill rows that then clear" width="300">
 
 </div>
 
@@ -22,8 +22,6 @@ A Tetris clone written from scratch in a single Pygame file. The seven tetromino
 python -m pip install -r requirements.txt
 python tetris.py
 ```
-
-As committed, the window is only 80 × 80 pixels; set `tamano_cuadros = 30` near the top of `tetris.py` for a playable 600 × 600 window.
 
 ## Controls
 
